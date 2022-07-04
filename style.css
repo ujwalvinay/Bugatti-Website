@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+}
+
+/* Menu  Section */
+#logo
+{
+    width: 150px;
+}
+.btn
+{
+    background-color: #23BCE5;
+    color: white;
+    font-weight: 600;
+}
+.btn:hover
+{
+    color: #23BCE5;
+    background-color: white;
+}
+.nav-link
+{
+    font-weight: 600;
+    color: white;
+}
+.nav-link:hover
+{
+    color: white;
+}
+.nav-item
+{
+    padding: 0 1rem;
+}
+
+/* UnderLine Animation Effect */
+.hover-underline-animation {
+    
+    position: relative;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 5px;
+    background-color: 
+  #DA1212;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  /* Image Section */
+  .container-fluid
+  {
+    background-image: url('assets/bugatti_chiron_side_view_blue_110214_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  /* Title Section */
+
+  h1
+  {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+
+    text-shadow: 2px 2px 4px black;
+  }
+ 
+  .text-div
+  {
+    padding-bottom: 25rem;
+  }
+
+  /* Spec Div */
+  .spec-div
+  {
+    margin: 2rem 0;
+    padding: 1rem;
+    display: flex;
+    gap:3rem;
+  }
+  #video-banner
+  {
+    width: 250px;
+    border-radius: 5px;
+    opacity: .5;
+  }
+
+  .video-tag
+  {
+    position: relative;
+  }
+  .video-tag img
+  {
+    display: relative
+  }
+  .video-tag .fa-circle-play
+  {
+    position: absolute; 
+    bottom:33%; 
+    left:35%;
+
+  }
+  .fa-circle-play
+  {
+    font-size: 50px;
+    color: white;
+  }
+
+  .info-tag
+  {
+    display: flex;
+    gap: 5rem;
+  }
+  .info-item
+  {
+    color: white;
+  }
+  .info-item h5
+  {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
